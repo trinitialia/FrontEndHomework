@@ -1,0 +1,49 @@
+body{
+    background: #eee;
+}
+
+p{
+    padding: 5px;
+}
+
+li{
+    padding: 5px;
+}
+
+#imgList{
+    list-style-type:none;
+    padding: 15px;
+}
+
+#leftPane{
+    float: left;
+    
+    background: #fff;
+    overflow-x:hidden;
+    overflow-y:auto; 
+
+}
+
+#rightPane{
+    float: right;
+    width: calc(100% - 275px);
+    max-height: 100%-120px;
+ 
+}
+
+.bigIMG{
+    max-width: calc(100% - 275px);
+    max-height: calc(100% - 130px);
+    position: fixed;
+    top: 120px;
+    margin-bottom: 10px;
+}
+
+#description{
+    padding 5px;
+    background: #fff;
+    border-radius: 10px;
+    position: fixed;
+    
+}
+
